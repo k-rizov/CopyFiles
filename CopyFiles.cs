@@ -25,8 +25,6 @@ namespace copyingItems
 					System.IO.Directory.CreateDirectory(destinationPath);
 				}
 				System.IO.File.Copy(sourceFile, destinationFile, true);
-
-
 			}
 		}
 	}
