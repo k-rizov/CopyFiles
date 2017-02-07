@@ -10,15 +10,13 @@ namespace copyingItems
 			while (true)
 			{
 				string sourceFileName = Console.ReadLine();
-				if (sourceFileName == "END")
+				if (sourceFileName == "end")
 				{
 					break;
 				}
-				int extensionIndex = sourceFileName.IndexOf('.');
-				string extension = sourceFileName.Substring(extensionIndex - 1);
-				string sourcePath = @"/Users/kix/Desktop";
-				string destinationPath = @"/Users/kix/Desktop/" + destinationFolder;
-				string destinationFileName = DateTime.Now.ToString("yyyyMMddhhmmss") + extension; // Don't mind this. I did this because I needed to name the copied files with respect to time.
+				string sourcePath = @"PATH NAME"; // Enter source path, for MACS /Users/yourUserName/Desktop/, for WINDOWS C:\Users\yourUserName\Desktop\
+				string destinationPath = @"PATH NAME" + destinationFolder; // Enter destination path, for MACS /Users/yourUserName/Desktop/, for WINDOWS C:\Users\yourUserName\Desktop\
+				string destinationFileName = sourceFileName; // Outputs file with its original name
 				string sourceFile = System.IO.Path.Combine(sourcePath, sourceFileName);
 				string destinationFile = System.IO.Path.Combine(destinationPath, destinationFileName);
 
