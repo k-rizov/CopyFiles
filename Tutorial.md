@@ -1,4 +1,4 @@
-# How it work
+# How it works
 
 Step 1. Run CopyFiles.exe
 
