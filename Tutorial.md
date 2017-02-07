@@ -1,6 +1,6 @@
 # How it work
 
-Step 1. Run copyfiles.exe
+Step 1. Run CopyFiles.exe
 
 Step 2. Write the new folder name which will be made in your destination path and hit ENTER
 
